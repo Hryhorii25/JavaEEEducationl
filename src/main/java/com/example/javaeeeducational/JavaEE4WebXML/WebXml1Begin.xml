@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <!--//WebXml дозволяє налаштовувати сервлети і керувати програмою-->
+
+    <!--ЗАСТОСУВАННЯ WebXml-->
+
+    <!--1)Прописання мапінгу сервлета добто url адреси -->
+
+    <!-- <servlet>
+    <servlet-name>Servlet1Bebin</servlet-name>
+    <servlet-class>Servlet1Bebin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>Servlet1Bebin</servlet-name>
+    <url-pattern>/Servlet</url-pattern>
+    </servlet-mapping> -->
+
+
+    <!--2)Блок який прописує набір файлів які запускаються по замовчуванню дефолтові файли-->
+
+    <!--<welcome-file-list>-->
+    <!--<welcome-file></welcome-file>-->
+<!--</welcome-file-list>-->
+
+
+    <!--3)Задає час сесії-->
+
+    <!--<session-config>-->
+        <!--<session-timeout></session-timeout>-->
+    <!--</session-config>-->
+
+
+<!--4)Додає картинку на html сторінку-->
+
+    <!--<icon>-->
+        <!--<small-icon></small-icon>-->
+    <!--<large-icon></large-icon>-->
+    <!--</icon>-->
+
+
+
+</web-app>
